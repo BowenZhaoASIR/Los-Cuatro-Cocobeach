@@ -1,0 +1,207 @@
+/* Hoja de estilos para el Ejemplo completo */
+
+* { margin: 0; padding: 0; }
+
+body {
+	width: 1000px;
+    margin: 0 auto;
+}
+
+header, footer, nav, main {
+	width: 100%;
+	background-color: rgba(155, 0, 0, 0.795);
+    padding: 10px 0;
+    color: white;
+}
+
+header, footer, nav {
+    text-align: center;
+}  
+
+footer {
+    border-radius: 0px 0px 9px 9px;
+}
+
+footer p {
+    line-height: 0.6em;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: #7c3232;
+}
+
+nav ul {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+nav li {
+    display: inline-block;
+    border: 5px solid rgb(150, 150, 150);
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgb(30, 0, 200);
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 10px 10px 10px 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a li:hover {
+    background-color: #8a84ad;
+    color: black;
+}
+
+.noenlace {
+    background-color: #8a84ad;
+    color: black;
+}
+
+/* ******** Botones de menú ****** */
+
+.btn-3d {
+    display: inline-block;  
+    margin: 0px 2px;
+    padding: .6rem 1rem;
+    border: 1px solid #995309;
+    border-radius: 4px;
+    background-color: #d9750b;
+    color: #fff;
+  
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS';
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+      0 1px 3px rgba(0,0,0,.2);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f90),to(#e76a00));
+    background-image: linear-gradient(#f90 10%,#e76a00 100%);
+  }
+  
+  .btn-3d:hover, .btn-3d:focus {
+    background-color: #e0811b;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+    background-image: linear-gradient(#f0a100 10%,#f70 100%);
+  }
+  
+  .btn-3d:active {
+    background-color: #cf6a00;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+    background-image: linear-gradient(#f0a100 10%,#f70 100%);
+  }
+
+/* ******** Fin Botones de menú ****** */
+
+
+main {
+    background-color: #ffc7c7;
+    padding: 10px;
+    height: 1%;
+    overflow: hidden;
+    color: #0431FF;
+}
+
+main h1, main h2 {
+    text-align: center;
+    font-family: Arial;
+}
+
+main h3 {
+    text-align: center;
+    font-family: Arial;
+    color: 0431FF;
+}
+
+/* ******** Formulario ****** */
+
+form {
+    border: 5px double darkred;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 70%;
+    background-color: #fadcc3;
+}
+
+/*
+label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+*/
+
+fieldset {
+    margin-left: 110px;
+}
+
+.caja_centrada {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*
+input[type="submit"], input[type="reset"] {
+    width: 80px;
+    color: white;
+    background-color: darkred;
+    padding: 6px;
+    box-shadow: 4px 4px 2px;
+}
+*/
+
+/* ******** Fin Formulario ****** */
+
+
+/* ************** Tabla ************** */
+
+table{
+    border-collapse: collapse;
+    border: 3px solid darkred;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 3px solid darkred;
+    padding: 7px;
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+th {
+    color: darkred;
+}
+
+.unidades {
+    font-weight: bold;
+    text-align: center;
+}
+
+.no_stock, .no_embalado {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.si_stock, .si_embalado {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ************** Fin Tabla ************** */
+
+
