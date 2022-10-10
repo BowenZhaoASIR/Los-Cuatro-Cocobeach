@@ -14,6 +14,26 @@ header, footer, nav, main {
     color: white;
 }
 
+/*En el header img asigno que el logo tenga x tamaño con height y weight, con display que no mueva el texto debajo de la imagen y con align-item y float alineo la imagen a la izquierda.*/
+header img {
+    height: 100px;
+    weight: 100px;
+    display: inline-flex;
+    align-items: flex-start;
+    float: left;
+
+}
+
+/*En el header h1 asigno que con display que no se mueva el texto debajo de la imagen, con align-item y justify-content alineo la imagen al centro, con color pongo color y margin-top deja un margen superior.*/
+
+header h1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    margin-top: 35px;   
+}
+
 header, footer, nav {
     text-align: center;
 }  
